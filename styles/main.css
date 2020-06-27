@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'Pixel';
+	src: url('../fonts/Pixeled.ttf');
+}
+
+body {
+	background: #1a1a1a;
+	font-family: 'Pixel' !important;
+}
