@@ -1,7 +1,7 @@
 Vue.component('sidemenu', {
 	template: `
-    <div id="nav">
-        <button class="nav-button">BUILDS</button>
-        <button class="nav-button">STATS</button>
+    <div id="sidemenu">
+        <button class="sidemenu-btn">BUILDS</button>
+        <button class="sidemenu-btn">STATS</button>
     </div>`,
 })
