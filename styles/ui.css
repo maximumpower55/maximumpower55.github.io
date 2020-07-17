@@ -16,3 +16,26 @@
 	font-size: 8px;
 	font-kerning: 10px;
 }
+
+#stats {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+
+	width: 5rem;
+	height: 5vh;
+	position: fixed;
+}
+
+#stats__cash {
+	color: yellow;
+	font-family: 'Pixel';
+}
+
+#stats__energy {
+	color: orange;
+	font-family: 'Pixel';
+}
