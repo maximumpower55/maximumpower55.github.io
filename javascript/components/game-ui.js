@@ -1,5 +1,9 @@
 Vue.component('game-ui', {
+	props: ['player'],
 	template: `
-	<sidemenu />
+		<div>
+			<stats v-bind:player="player" />
+			<sidemenu />
+		</div>
 	`,
 })
